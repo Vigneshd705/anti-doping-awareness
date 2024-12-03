@@ -55,62 +55,87 @@ export default function ModuleQuizScreen() {
     </View>
   );
 }
-
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    padding: 20,
-    backgroundColor: '#f7f7f7',
-  },
-  moduleTitle: {
-    fontSize: 24,
-    fontWeight: 'bold',
-    color: '#03615b',
-    marginBottom: 20,
-    textAlign: 'center',
-  },
-  questionContainer: {
-    width: '100%',
-    backgroundColor: '#ffffff',
-    padding: 20,
-    borderRadius: 10,
-    elevation: 5,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.2,
-    shadowRadius: 3,
-  },
-  question: {
-    fontSize: 18,
-    fontWeight: 'bold',
-    marginBottom: 15,
-  },
-  optionButton: {
-    backgroundColor: '#2196F3',
-    padding: 12,
-    marginBottom: 10,
-    borderRadius: 5,
-  },
-  selectedOption: {
-    backgroundColor: '#4CAF50',
-  },
-  optionText: {
-    color: '#ffffff',
-    fontSize: 16,
-  },
-  submitButton: {
-    backgroundColor: '#FF5722',
-    paddingVertical: 15,
-    paddingHorizontal: 30,
-    borderRadius: 5,
-    marginTop: 20,
-  },
-  submitButtonText: {
-    color: '#ffffff',
-    fontSize: 18,
-    fontWeight: 'bold',
-    textAlign: 'center',
-  },
-});
+    container: {
+      flex: 1,
+      backgroundColor: '#f7f7f7',
+      alignItems: 'center',
+      justifyContent: 'center',
+      padding: 20,
+    },
+    moduleTitle: {
+      fontSize: 24,
+      fontWeight: 'bold',
+      color: '#03615b',
+      marginBottom: 20,
+      textAlign: 'center',
+    },
+    questionContainer: {
+      width: '100%',
+      backgroundColor: '#ffffff',
+      padding: 20,
+      borderRadius: 10,
+      elevation: 5,
+      shadowColor: '#000',
+      shadowOffset: { width: 0, height: 2 },
+      shadowOpacity: 0.2,
+      shadowRadius: 3,
+    },
+    question: {
+      fontSize: 18,
+      fontWeight: 'bold',
+      marginBottom: 15,
+    },
+    optionButton: {
+      backgroundColor: '#e8f5e9',
+      padding: 12,
+      marginBottom: 10,
+      borderRadius: 5,
+    },
+    selectedOption: {
+      backgroundColor: '#4CAF50',
+    },
+    optionText: {
+      color: '#03615b',
+      fontSize: 16,
+    },
+    submitButton: {
+      backgroundColor: '#03615b',
+      paddingVertical: 15,
+      paddingHorizontal: 30,
+      borderRadius: 5,
+      marginTop: 20,
+    },
+    submitButtonText: {
+      color: '#ffffff',
+      fontSize: 18,
+      fontWeight: 'bold',
+      textAlign: 'center',
+    },
+    quizButton: {
+      backgroundColor: '#e8f5e9', 
+      padding: 12,
+      borderRadius: 5,
+      marginBottom: 10,
+    },
+    quizButtonText: {
+      color: '#03615b',
+      fontSize: 14,
+      fontWeight: 'bold',
+      textAlign: 'center',
+    },
+    moduleQuizButton: {
+      backgroundColor: '#03615b',
+      padding: 15,
+      borderRadius: 10,
+      marginTop: 20,
+      width: '100%',
+      alignItems: 'center',
+    },
+    moduleQuizButtonText: {
+      color: '#ffffff',
+      fontSize: 16,
+      fontWeight: 'bold',
+    },
+  });
+  

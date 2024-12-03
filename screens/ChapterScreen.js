@@ -50,7 +50,7 @@ export default function ChaptersScreen() {
                   style={[styles.button, styles.quizButton]}
                   onPress={() => handleQuizPress(chapter)}
                 >
-                  <Text style={styles.buttonText}>Take Quiz</Text>
+                  <Text style={styles.quizbuttonText}>Take Quiz</Text>
                 </TouchableOpacity>
               </View>
             </View>
@@ -140,19 +140,27 @@ const styles = StyleSheet.create({
     elevation: 3,
   },
   videoButton: {
-    backgroundColor: '#2196F3',
+    backgroundColor: '#03615b', // Button color set to #03615b
   },
-  quizButton: {
-    backgroundColor: '#4CAF50',
-  },
+
   buttonText: {
     color: '#ffffff',
     fontSize: 14,
     fontWeight: 'bold',
     textAlign: 'center',
   },
+  quizButton: {
+    color:'#03615b',
+    backgroundColor: '#e8f5e9', // Keep quiz button color as is
+  },
+  quizbuttonText: {
+    color: '#03615b',
+    fontSize: 14,
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
   moduleQuizButton: {
-    backgroundColor: '#FF5722',
+    backgroundColor: '#03615b',
     padding: 15,
     borderRadius: 10,
     marginTop: 20,

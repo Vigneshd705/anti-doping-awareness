@@ -90,7 +90,6 @@ export default function ModulesScreen() {
     </View>
   );
 }
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -104,7 +103,8 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: 'bold',
     marginBottom: 20,
-    color: '#03615b',
+    color: '#03615b',  // Green color for the header
+    textAlign: 'center',
   },
   modulesContainer: {
     flexDirection: 'row',
@@ -123,6 +123,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.3,
     shadowRadius: 4,
     padding: 15,
+    backgroundColor: '#ffffff', // White background for each module card
   },
   thumbnail: {
     width: '100%',
@@ -133,7 +134,7 @@ const styles = StyleSheet.create({
   moduleTitle: {
     fontSize: 16,
     fontWeight: 'bold',
-    color: '#03615b',
+    color: '#03615b',  // Green color for module titles
     textAlign: 'center',
   },
 });

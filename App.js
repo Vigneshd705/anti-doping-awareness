@@ -14,10 +14,21 @@ const Stack = createStackNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="HomeScreen">
+      <Stack.Navigator
+        initialRouteName="HomeScreen"
+        screenOptions={{
+          headerStyle: {
+            backgroundColor: '#03615b',  // Green color for the header background
+          },
+          headerTintColor: '#ffffff',  // White color for the title and icons
+          headerTitleStyle: {
+            fontWeight: 'bold',
+          },
+        }}
+      >
         <Stack.Screen name="HomeScreen" component={HomeScreen} />
         <Stack.Screen name="ModuleScreen" component={ModulesScreen} />
-        <Stack.Screen name="Chatbot" component={ChatbotScreen} />        
+        <Stack.Screen name="Chatbot" component={ChatbotScreen} />
         <Stack.Screen name="ChaptersScreen" component={ChaptersScreen} options={{ title: 'Chapters' }} />
         <Stack.Screen name="VideoScreen" component={VideoScreen} options={{ title: 'Video' }} />
         <Stack.Screen name="QuizScreen" component={QuizScreen} options={{ title: 'Chapter Quiz' }} />
