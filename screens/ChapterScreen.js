@@ -72,7 +72,7 @@ export default function ChaptersScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f7f7f7',
+    backgroundColor: '1A1A1D',
   },
   scrollView: {
     padding: 20,

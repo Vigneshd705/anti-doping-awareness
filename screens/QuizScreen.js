@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
     marginBottom: 15,
   },
   optionButton: {
-    backgroundColor: '#2196F3',
+    backgroundColor: '#e8f5e9',
     padding: 12,
     marginBottom: 10,
     borderRadius: 5,
@@ -95,11 +95,11 @@ const styles = StyleSheet.create({
     backgroundColor: '#4CAF50',
   },
   optionText: {
-    color: '#ffffff',
+    color: '#03615b',
     fontSize: 16,
   },
   submitButton: {
-    backgroundColor: '#FF5722',
+    backgroundColor: '#03615b',
     paddingVertical: 15,
     paddingHorizontal: 30,
     borderRadius: 5,
