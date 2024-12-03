@@ -72,7 +72,9 @@ export default function ChaptersScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '1A1A1D',
+    // backgroundColor: '1A1A1D',
+    backgroundColor:'#000000',
+
   },
   scrollView: {
     padding: 20,
@@ -102,7 +104,8 @@ const styles = StyleSheet.create({
   },
   chapterCard: {
     flexDirection: 'row',
-    backgroundColor: '#ffffff',
+    // backgroundColor: '#ffffff',
+    backgroundColor:'#D8D2C2',
     borderRadius: 10,
     marginBottom: 15,
     elevation: 5,

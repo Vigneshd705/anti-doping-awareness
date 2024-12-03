@@ -58,7 +58,8 @@ export default function ModuleQuizScreen() {
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: '#f7f7f7',
+      // backgroundColor: '#f7f7f7',
+      backgroundColor:'#000000',
       alignItems: 'center',
       justifyContent: 'center',
       padding: 20,

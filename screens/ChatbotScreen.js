@@ -119,7 +119,9 @@ const ChatbotScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f9f9f9',
+    // backgroundColor: '#f9f9f9',
+    backgroundColor:'#000000',
+
   },
   chatContainer: {
     flexGrow: 1, // Ensures ScrollView grows with content

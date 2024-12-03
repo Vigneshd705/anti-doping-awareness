@@ -61,7 +61,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     padding: 20,
-    backgroundColor: '#f7f7f7',
+    // backgroundColor: '#f7f7f7',
+    backgroundColor:'#000000',
   },
   chapterTitle: {
     fontSize: 24,
@@ -71,7 +72,8 @@ const styles = StyleSheet.create({
   },
   questionContainer: {
     width: '100%',
-    backgroundColor: '#ffffff',
+    // backgroundColor: '#ffffff',
+    backgroundColor:'#D8D2C2',
     padding: 20,
     borderRadius: 10,
     elevation: 5,
